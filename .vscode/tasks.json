@@ -1,0 +1,46 @@
+{
+
+    "version": "2.0.0",
+    "tasks": [
+            
+        {
+          "label": "up",
+          "type": "shell",
+          "command": "docker-compose up -d",
+          "problemMatcher": []
+        },
+        {
+          "label": "down",
+          "type": "shell",
+          "command": "docker-compose down",
+          "problemMatcher": []
+        },
+        {
+          "label": "pull",
+          "type": "shell",
+          "command": "docker-compose pull",
+          "problemMatcher": []
+        },        
+        {
+          "label": "pull2",
+          "type": "shell",
+          "command": "docker pull excalidraw/excalidraw:latest",
+          "problemMatcher": []
+        },
+        {
+          "label": "8888",
+          "type": "shell",
+          "command": "docker run -d -p 8888:80 --name excalidraw-instance excalidraw/excalidraw:latest",
+          "problemMatcher": []
+        },
+        {
+          "label": "stop",
+          "type": "shell",
+          "command": "docker rm -f excalidraw-instance",
+          "problemMatcher": []
+        }          
+             
+    ]
+  }
+
+  
