@@ -2,7 +2,7 @@
 
 Hay dos métodos para instalar Excalidraw. Elige el que mejor se adapte a tus necesidades:
 
-### Método 1: Usando Traefik (Recomendado para Producción)
+### Método 1: Usando Traefik
 Este método proporciona HTTPS, mejor seguridad y una configuración adecuada de proxy inverso.
 
 #### Prerequisitos
