@@ -165,6 +165,12 @@ docker rm excalidraw-instance
 docker rm -f excalidraw-instance
 ```
 
+### Solución de Problemas
+
+Si ves que Excalidraw sigue funcionando en el puerto 8888 después de detener los contenedores, intenta:
+1. Limpiar la caché del navegador
+2. Verificar que no hay contenedores ejecutándose con: `docker ps`
+
 ### Comparación de Métodos
 
 #### Beneficios del Método 1 (Traefik):
@@ -192,13 +198,3 @@ No se recomienda para:
 - Servidores expuestos a internet
 - Uso empresarial
 - Datos sensibles
-
-### Solución de Problemas
-
-Si no puedes acceder a la aplicación:
-1. Verifica que los contenedores estén ejecutándose: `docker-compose ps` o `docker ps`
-2. Revisa los logs: `docker-compose logs`
-3. Asegúrate de que el archivo hosts esté configurado correctamente
-4. Si ves que Excalidraw sigue funcionando después de detener los contenedores:
-   - Limpia la caché del navegador
-   - Verifica que no hay contenedores ejecutándose con `docker ps`
