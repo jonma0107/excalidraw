@@ -129,6 +129,9 @@ Sin embargo, se recomienda usar Traefik (el método descrito en esta guía) porq
 
 ### Instalación Alternativa: Acceso Directo por Puerto (Sin Traefik)
 
+![image](https://github.com/user-attachments/assets/a69f995c-3498-476d-8bf8-24bdd5b406bb)
+
+
 ### Método 2: Acceso Directo por Puerto (Configuración Simple)
 Este método es más simple pero menos seguro, adecuado para desarrollo local, por las siguientes razones:
 - No tiene cifrado HTTPS (usa HTTP plano)
